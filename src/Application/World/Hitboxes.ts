@@ -42,16 +42,6 @@ export default class Decor {
             console.log(ray);
             const intersects = ray.intersectObjects(this.scene.children);
             console.log(intersects);
-            // this.raycaster.setFromCamera(this.mouse, this.camera.instance);
-            // const intersects = this.raycaster.intersectObjects(
-            //     this.scene.children
-            // );
-            // if (intersects.length > 0) {
-            //     const hb = this.hitboxes[intersects[0].object.name];
-            //     if (hb) {
-            //         hb.action();
-            //     }
-            // }
         });
     }
 

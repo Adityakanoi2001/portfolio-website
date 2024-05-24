@@ -161,20 +161,20 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         <div style={styles.logoContainer}>
                             <div>
                                 <p style={styles.green}>
-                                    <b>Heffernan,</b>{' '}
+                                    <b>Aditya,</b>{' '}
                                 </p>
                                 <p style={styles.green}>
-                                    <b>Henry Inc.</b>
+                                    <b>Kanoi Inc.</b>
                                 </p>
                             </div>
                         </div>
                         <div style={styles.headerInfo}>
                             <p>Released: 01/13/2000</p>
-                            <p>HHBIOS (C)2000 Heffernan Henry Inc.,</p>
+                            <p>HHBIOS (C)2000 Aditya Kanoi Inc.,</p>
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
-                        <p>HSP S13 2000-2022 Special UC131S</p>
+                        <p>HSP S13 2000-2024 Special UC131S</p>
                         <div style={styles.spacer} />
                         {showBiosInfo && (
                             <>
@@ -207,7 +207,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             <p>
                                 All Content Loaded, launching{' '}
                                 <b style={styles.green}>
-                                    'Henry Heffernan Portfolio Showcase'
+                                    'Aditya Kanoi Portfolio Showcase'
                                 </b>{' '}
                                 V1.0
                             </p>
@@ -239,7 +239,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                     <p>But do enjoy what I have done so far :)</p>
                     <div style={styles.spacer} />
                     <div style={styles.spacer} /> */}
-                    <p>Henry Heffernan Portfolio Showcase 2022</p>
+                    <p>Aditya Kanoi Portfolio Showcase 2024</p>
                     {mobileWarning && (
                         <>
                             <br />
@@ -314,7 +314,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             will need to use a different browser.
                         </p>
                         <div style={styles.spacer} />
-                        <p>Thank you - Henry</p>
+                        <p>Thank you - Aditya</p>
                     </div>
                 </div>
             )}
